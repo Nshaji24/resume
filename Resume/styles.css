@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+.navbar ul{
+    display: inline-block;
+    list-style: none;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 20px;
+}
+
+.header{
+    background: radial-gradient(#fff,darkcyan);
+
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.header .row{
+    margin-top: 70px;
+
+}
+.intro{
+    max-width: 1080px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.intro p{
+    line-height: 60px;
+    color: #555555;
+}
+.prophoto{
+    display: inline-block;
+    float: right;
+}
+.intro h1{
+    text-align: center;
+}
+
+.intro about{
+    display: flex;
+    flex-basis: 100%;
+    color: black;
+}
+
+
+.card{
+    border-width: 5px;
+    border-color: navy;
+    padding:  20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.card-container{
+    display: flex;
+    padding: 20px;
+}
+.footer{
+    background: black;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 40px 0 20px;
+
+
+}
+.links, .socials{
+    min-width: 250px;
+    margin-bottom: 20px;
+    flex-basis: 12%;
+    text-align: center;
+}
+.footer p{
+    color: white;
+}
+.footer h3{
+    color: white;
+
+}
+.links{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: gray;
+}
+.socials{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: gray;
+}
+.footer hr{
+    border:none;
+    background: #b5b5b5;
+    height: 1px;
+
+}
+
